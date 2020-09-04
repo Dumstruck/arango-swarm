@@ -25,7 +25,7 @@ docker stack deploy -c stack.yml arango
 
 You should then see three services via `docker service`:
 
-````
+```
 mqcyxvd864n6 arango_agent       replicated 3/3 dumstruck/arangodb *:8529->8529/tcp
 z619h8xdq31g arango_dbserver    replicated 3/3 dumstruck/arangodb *:8529->8529/tcp
 rle4e6z48gdo arango_coordinator replicated 3/3 dumstruck/arangodb *:8529->8529/tcp
